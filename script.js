@@ -50,7 +50,7 @@ function displayRepositories(repositories)
         <img src="${repositories[0].owner.avatar_url}" alt="Owner Avatar">
         <div class="owner-info">
         <h2>${repositories[0].owner.login}</h2>
-        <p> ${repositories[0].owner.location || 'no '}</p>
+        <p> ${repositories[0].owner.location || ''}</p>
         <p>URL: <a href="${repositories[0].owner.html_url}" target="_blank">${repositories[0].owner.html_url}</a></p>
         </div>`;
 
